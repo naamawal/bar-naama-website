@@ -1,0 +1,44 @@
+import React from 'react';
+import { Star } from '@/components/GeometricShapes';
+
+const Footer = () => {
+  return (
+    <footer className="py-12 border-t border-border">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Logo */}
+          <div className="flex items-center gap-3">
+            <span className="font-display text-xl font-semibold text-foreground">
+              Bar <span className="font-display italic text-mustard">&</span> Naama
+            </span>
+            <span className="text-sm text-foreground/50">Consulting</span>
+          </div>
+          
+          {/* Links */}
+          <div className="flex items-center gap-8">
+            <a href="#what-we-build" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
+              What We Build
+            </a>
+            <a href="#approach" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
+              Approach
+            </a>
+            <a href="#how-we-work" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
+              How We Work
+            </a>
+            <a href="#contact" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
+              Contact
+            </a>
+          </div>
+          
+          {/* Copyright */}
+          <div className="flex items-center gap-2 text-sm text-foreground/50">
+            <Star size={12} />
+            <span>© 2024 Bar & Naama Consulting</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
