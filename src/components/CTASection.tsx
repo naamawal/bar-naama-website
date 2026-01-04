@@ -28,10 +28,12 @@ const CTASection = () => {
             Let's start with your reality and build systems that actually work.
           </p>
           
-          <Button variant="terracotta" size="xl" className="group">
-            Start with a discovery call
-            <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
-          </Button>
+          <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+            <Button variant="terracotta" size="xl" className="group">
+              Start with a discovery call
+              <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

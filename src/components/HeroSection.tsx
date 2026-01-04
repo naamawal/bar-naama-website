@@ -32,10 +32,12 @@ const HeroSection = () => {
               No dashboards no one trusts. No black-box AI. Systems your teams actually rely on.
             </p>
             
-            <Button variant="terracotta" size="xl" className="group">
-              Book a discovery call
-              <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
-            </Button>
+            <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+              <Button variant="terracotta" size="xl" className="group">
+                Book a discovery call
+                <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
+              </Button>
+            </a>
           </div>
           
           {/* Illustration */}
