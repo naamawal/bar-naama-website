@@ -6,9 +6,10 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: 'What We Build', href: '#what-we-build' },
-    { label: 'Our Approach', href: '#approach' },
-    { label: 'How We Work', href: '#how-we-work' },
+    { label: 'What We Build', href: '/#what-we-build' },
+    { label: 'Our Approach', href: '/#approach' },
+    { label: 'How We Work', href: '/#how-we-work' },
+    { label: 'Who We Are', href: '/who-we-are' },
   ];
 
   return (
