@@ -51,16 +51,10 @@ const WhoWeAre = () => {
       <Navigation />
       <main className="pt-24">
         {/* Hero Section */}
-        <section className="py-20 md:py-28">
+        <section className="py-12 md:py-16">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <div className="flex items-center justify-center gap-3 mb-6">
-                <Star size={24} className="text-terracotta" />
-                <span className="text-sm font-medium text-foreground/60 uppercase tracking-wider">
-                  About Us
-                </span>
-              </div>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8">
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
                 Who We Are
               </h1>
             </div>
