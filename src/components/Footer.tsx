@@ -33,7 +33,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="flex items-center gap-2 text-sm text-foreground/50">
             <Star size={12} />
-            <span>© 2024 NextGen-Ops</span>
+            <span>© 2026 NextGen-Ops</span>
           </div>
         </div>
       </div>
