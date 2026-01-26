@@ -4,6 +4,13 @@ import mixpanelLogo from '@/assets/logos/mixpanel.png';
 import salesforceLogo from '@/assets/logos/salesforce.png';
 import hubspotLogo from '@/assets/logos/hubspot.png';
 import zendeskLogo from '@/assets/logos/zendesk.png';
+import zapierLogo from '@/assets/logos/zapier.png';
+import gainsightLogo from '@/assets/logos/gainsight.png';
+import freshworksLogo from '@/assets/logos/freshworks.png';
+import gongLogo from '@/assets/logos/gong.png';
+import pylonLogo from '@/assets/logos/pylon.webp';
+import tableauLogo from '@/assets/logos/tableau.png';
+import snowflakeLogo from '@/assets/logos/snowflake.png';
 
 const logos = [
   { src: lookerLogo, alt: 'Looker' },
@@ -11,6 +18,13 @@ const logos = [
   { src: salesforceLogo, alt: 'Salesforce' },
   { src: hubspotLogo, alt: 'HubSpot' },
   { src: zendeskLogo, alt: 'Zendesk' },
+  { src: zapierLogo, alt: 'Zapier' },
+  { src: gainsightLogo, alt: 'Gainsight' },
+  { src: freshworksLogo, alt: 'Freshworks' },
+  { src: gongLogo, alt: 'Gong' },
+  { src: pylonLogo, alt: 'Pylon' },
+  { src: tableauLogo, alt: 'Tableau' },
+  { src: snowflakeLogo, alt: 'Snowflake' },
 ];
 
 const LogoBanner = () => {
