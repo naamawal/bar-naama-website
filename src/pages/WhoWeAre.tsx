@@ -57,6 +57,7 @@ const WhoWeAre = () => {
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
                 Who We Are
               </h1>
+              <div className="w-16 h-1 bg-terracotta mx-auto mt-6" />
             </div>
           </div>
         </section>
