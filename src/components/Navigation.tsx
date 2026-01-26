@@ -17,7 +17,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 font-display text-xl font-semibold text-foreground">
+          <a href="/" className="flex items-center gap-2 font-display text-xl font-semibold text-foreground">
             <img src="/og-image.png" alt="NextGen-Ops logo" className="h-8 w-8" />
             NextGen-Ops
           </a>
