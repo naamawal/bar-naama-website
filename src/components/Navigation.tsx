@@ -18,7 +18,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="font-display text-xl font-semibold text-foreground">
-            Bar <span className="font-display italic text-mustard">&</span> Naama
+            NextGen-Ops
           </a>
 
           {/* Desktop Navigation */}
