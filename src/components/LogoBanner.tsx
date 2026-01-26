@@ -11,6 +11,14 @@ import gongLogo from '@/assets/logos/gong.png';
 import pylonLogo from '@/assets/logos/pylon.webp';
 import tableauLogo from '@/assets/logos/tableau.png';
 import snowflakeLogo from '@/assets/logos/snowflake.png';
+import mondayLogo from '@/assets/logos/monday.png';
+import airtableLogo from '@/assets/logos/airtable.png';
+import asanaLogo from '@/assets/logos/asana.png';
+import n8nLogo from '@/assets/logos/n8n.png';
+import slackLogo from '@/assets/logos/slack.png';
+import confluenceLogo from '@/assets/logos/confluence.png';
+import jiraLogo from '@/assets/logos/jira.png';
+import powerbiLogo from '@/assets/logos/powerbi.png';
 
 const logos = [
   { src: lookerLogo, alt: 'Looker' },
@@ -25,6 +33,14 @@ const logos = [
   { src: pylonLogo, alt: 'Pylon' },
   { src: tableauLogo, alt: 'Tableau' },
   { src: snowflakeLogo, alt: 'Snowflake' },
+  { src: mondayLogo, alt: 'Monday.com' },
+  { src: airtableLogo, alt: 'Airtable' },
+  { src: asanaLogo, alt: 'Asana' },
+  { src: n8nLogo, alt: 'n8n' },
+  { src: slackLogo, alt: 'Slack' },
+  { src: confluenceLogo, alt: 'Confluence' },
+  { src: jiraLogo, alt: 'Jira' },
+  { src: powerbiLogo, alt: 'Power BI' },
 ];
 
 const LogoBanner = () => {
