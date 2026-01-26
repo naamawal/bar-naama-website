@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <img src="/og-image.png" alt="NextGen-Ops logo" className="h-8 w-8" />
             <span className="font-display text-xl font-semibold text-foreground">
               NextGen-Ops
             </span>
