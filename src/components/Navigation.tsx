@@ -9,7 +9,6 @@ const Navigation = () => {
     { label: 'What We Build', href: '#what-we-build' },
     { label: 'Our Approach', href: '#approach' },
     { label: 'How We Work', href: '#how-we-work' },
-    { label: 'Contact', href: '#contact' },
   ];
 
   return (
