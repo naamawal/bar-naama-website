@@ -1,8 +1,9 @@
 import React from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Star } from '@/components/GeometricShapes';
-import { Linkedin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Star, DecorativeArch } from '@/components/GeometricShapes';
+import { Linkedin, ArrowRight } from 'lucide-react';
 import naamaPhoto from '@/assets/team/naama.png';
 import barPhoto from '@/assets/team/bar.png';
 
@@ -70,9 +71,12 @@ const WhoWeAre = () => {
         <section className="py-16 bg-cream/30">
           <div className="container mx-auto px-6">
             <div className="max-w-3xl mx-auto">
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
-                Our Story
-              </h2>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="h-px w-12 bg-terracotta" />
+                <span className="text-sm font-medium text-terracotta uppercase tracking-wider">
+                  Our Story
+                </span>
+              </div>
               <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
                 <p>
                   We founded NextGen-Ops because we saw too many growth-stage SaaS companies hitting a wall. They had the data, but lacked the clarity to use it. Leadership was steering in the fog, and teams were spending more time "chasing" information than acting on it.
@@ -164,6 +168,39 @@ const WhoWeAre = () => {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-24 relative overflow-hidden">
+          <div className="absolute left-0 bottom-0 w-64 h-64 opacity-10">
+            <DecorativeArch className="w-full h-full" />
+          </div>
+          <div className="absolute right-12 top-12">
+            <Star size={24} />
+          </div>
+          
+          <div className="container mx-auto px-6 relative">
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-lg text-foreground/70 mb-4 italic">
+                Ready to work with a team that understands your reality?
+              </p>
+              
+              <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium mb-6 text-foreground">
+                Let's build something that lasts.
+              </h2>
+              
+              <p className="text-lg text-foreground/70 mb-10 max-w-xl mx-auto">
+                Start with a conversation about your data, your team, and your goals.
+              </p>
+              
+              <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+                <Button variant="terracotta" size="xl" className="group">
+                  Start with a discovery call
+                  <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
+                </Button>
+              </a>
             </div>
           </div>
         </section>
