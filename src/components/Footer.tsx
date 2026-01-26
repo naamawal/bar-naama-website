@@ -9,9 +9,8 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <span className="font-display text-xl font-semibold text-foreground">
-              Bar <span className="font-display italic text-mustard">&</span> Naama
+              NextGen-Ops
             </span>
-            <span className="text-sm text-foreground/50">Consulting</span>
           </div>
           
           {/* Links */}
@@ -33,7 +32,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="flex items-center gap-2 text-sm text-foreground/50">
             <Star size={12} />
-            <span>© 2024 Bar & Naama Consulting</span>
+            <span>© 2024 NextGen-Ops</span>
           </div>
         </div>
       </div>
