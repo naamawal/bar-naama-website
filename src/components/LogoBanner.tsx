@@ -1,5 +1,4 @@
 import React from 'react';
-import zapierLogo from '@/assets/logos/zapier.png';
 import lookerLogo from '@/assets/logos/looker.png';
 import mixpanelLogo from '@/assets/logos/mixpanel.png';
 import salesforceLogo from '@/assets/logos/salesforce.png';
@@ -7,7 +6,6 @@ import hubspotLogo from '@/assets/logos/hubspot.png';
 import zendeskLogo from '@/assets/logos/zendesk.png';
 
 const logos = [
-  { src: zapierLogo, alt: 'Zapier' },
   { src: lookerLogo, alt: 'Looker' },
   { src: mixpanelLogo, alt: 'Mixpanel' },
   { src: salesforceLogo, alt: 'Salesforce' },
