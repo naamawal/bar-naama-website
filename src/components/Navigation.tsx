@@ -32,9 +32,11 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="terracotta" size="sm">
-              Book a Call
-            </Button>
+            <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+              <Button variant="terracotta" size="sm">
+                Book a Call
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -61,9 +63,11 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="terracotta" size="sm" className="w-fit">
-                Book a Call
-              </Button>
+              <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+                <Button variant="terracotta" size="sm" className="w-fit">
+                  Book a Call
+                </Button>
+              </a>
             </div>
           </div>
         )}
