@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Star, DecorativeArch } from '@/components/GeometricShapes';
 import { Linkedin, ArrowRight } from 'lucide-react';
+import { BOOK_CALL_URL } from '@/lib/contact';
 import naamaPhoto from '@/assets/team/naama.png';
 import barPhoto from '@/assets/team/bar.png';
 
@@ -190,7 +191,7 @@ const WhoWeAre = () => {
                 Start with a conversation about your data, your team, and your goals.
               </p>
               
-              <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+              <a href={BOOK_CALL_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="terracotta" size="xl" className="group">
                   Start with a discovery call
                   <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />

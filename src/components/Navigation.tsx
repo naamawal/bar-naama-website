@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { BOOK_CALL_URL } from '@/lib/contact';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+            <a href={BOOK_CALL_URL} target="_blank" rel="noopener noreferrer">
               <Button variant="terracotta" size="sm">
                 Book a Call
               </Button>
@@ -64,7 +65,7 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+              <a href={BOOK_CALL_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="terracotta" size="sm" className="w-fit">
                   Book a Call
                 </Button>

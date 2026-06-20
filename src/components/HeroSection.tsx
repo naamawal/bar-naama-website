@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { HeroIllustration, Star } from '@/components/GeometricShapes';
 import { ArrowRight } from 'lucide-react';
+import { BOOK_CALL_URL } from '@/lib/contact';
 
 const HeroSection = () => {
   return (
@@ -32,7 +33,7 @@ const HeroSection = () => {
               No dashboards no one trusts. No black-box AI. Systems your teams actually rely on.
             </p>
             
-            <a href="https://calendar.app.google/1mq1VgFCA6oH92NG7" target="_blank" rel="noopener noreferrer">
+            <a href={BOOK_CALL_URL} target="_blank" rel="noopener noreferrer">
               <Button variant="terracotta" size="xl" className="group">
                 Book a discovery call
                 <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />

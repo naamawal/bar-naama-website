@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star } from '@/components/GeometricShapes';
+import { CONTACT_PHONE_HREF } from '@/lib/contact';
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
             <a href="#how-we-work" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
               How We Work
             </a>
-            <a href="#contact" className="text-sm text-foreground/60 hover:text-foreground transition-colors">
+            <a href={CONTACT_PHONE_HREF} className="text-sm text-foreground/60 hover:text-foreground transition-colors">
               Contact
             </a>
           </div>
